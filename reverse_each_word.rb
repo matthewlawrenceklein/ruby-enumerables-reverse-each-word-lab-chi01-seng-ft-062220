@@ -1,7 +1,11 @@
 
 def reverse_each_word(sentence)
 
-  return "big god damn sando"
+  return sentence.upcase
+
+
+
+
 end
 
 
