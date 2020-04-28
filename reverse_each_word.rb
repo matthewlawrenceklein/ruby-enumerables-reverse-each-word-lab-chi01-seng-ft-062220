@@ -1,13 +1,13 @@
 
 def reverse_each_word(sentence)
 
-  sentence = sentence.split(/ /)
+  new_array = sentence.split(/ /)
 
-  sentence.map do |sentence|
-    sentence.reverse
+  new_array.map do |x|
+    x.reverse
   end
 
-  sentence.join(" ")
+  new_array.join(" ")
 
 end
 
