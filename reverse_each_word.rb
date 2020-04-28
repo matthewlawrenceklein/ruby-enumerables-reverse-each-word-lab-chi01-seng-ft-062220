@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
 
   sentence = sentence.split(/ /)
 
-  return sentence.each do |sentence|
+  sentence.each do |sentence|
     puts "#{sentence} IS GOD"
   end
 
