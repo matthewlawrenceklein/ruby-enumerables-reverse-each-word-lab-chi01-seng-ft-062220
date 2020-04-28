@@ -1,4 +1,4 @@
-def reverse_each_word(sentence)
-  sentence.each {|x| x.reverse}
-  return sentence
+def reverse_each_word(string)
+  string.each {|x| x.reverse}
+  return string
 end
