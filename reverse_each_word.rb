@@ -7,6 +7,9 @@ def reverse_each_word(sentence)
     puts "#{sentence} IS GOD"
   end
 
+  sentence.join(" ")
+
+
 end
 
 
