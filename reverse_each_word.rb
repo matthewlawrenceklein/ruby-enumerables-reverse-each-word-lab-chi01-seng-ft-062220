@@ -1,7 +1,7 @@
 
 def reverse_each_word(sentence)
 
-  return sentence.each{|x| x + "1"}
+  return sentence.map { |e| e.upcase }
 
 
 
