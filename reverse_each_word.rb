@@ -1,10 +1,11 @@
 
 def reverse_each_word(sentence)
 
-  return sentence.map { |e| e.upcase }
-
-
-
+  sentence = sentence.split(/ /)
+  
+  return sentence.each do |sentence|
+    puts "#{sentence} IS GOD"
+  end
 
 end
 
